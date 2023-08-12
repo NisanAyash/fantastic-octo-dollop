@@ -1,0 +1,16 @@
+services:
+  app:
+    build: .
+    ports:
+      - 3005:3005
+    volumes:
+      - ~/.aws:/root/.aws
+      - .env:/usr/src/app/.env
+
+  dynamodb:
+    image: amazon/dynamodb-local
+    ports:
+      - 8000:8000
+    environment:
+      - AWS_ACCESS_KEY_ID=your_access_key_id
+      - AWS_SECRET_ACCESS_KEY=your_secret_access_key
