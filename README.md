@@ -1,4 +1,4 @@
-Hello there,
+Hello there ✌️
 
 ### Let's run the dashboard project
 	
@@ -18,8 +18,9 @@ Hello there,
 * You can customize the session expiration through the src/.env file
 
 ### chat-app
-
-1. cd chat-app
-2. npm i
-3. node app.js
-4. open a & b html files with Open live server extension
+	`
+	1. cd chat-app
+	2. npm i
+	3. node app.js
+	4. open a & b html files with Open live server extension
+	`
